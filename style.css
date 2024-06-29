@@ -467,3 +467,31 @@ nav .fas{
   color: #2c2c2c;
 }
 
+@keyframes slide {
+  form {
+    transform: translateX(0);
+  } 
+  to {
+    transform: translateX(-100%);
+  }  
+}
+
+.logos{
+  overflow: hidden;
+  padding: 24px 0;
+  background-color: #e2c784;
+  margin-bottom: 120px;
+  white-space: nowrap;
+}
+
+.logos-slide{
+  display: inline-block;
+  animation: 28s slide infinite linear;
+}
+
+.logos-slide img{
+  height: 50px;
+  margin: 0 40px;
+}
+
+
