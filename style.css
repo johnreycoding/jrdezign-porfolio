@@ -468,7 +468,7 @@ nav .fas{
 }
 
 @keyframes slide {
-  form {
+  from {
     transform: translateX(0);
   } 
   to {
