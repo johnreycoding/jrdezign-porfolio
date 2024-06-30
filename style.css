@@ -484,6 +484,10 @@ nav .fas{
   white-space: nowrap;
 }
 
+.logos:hover .logos-slide {
+  animation-play-state: paused;
+}
+
 .logos-slide{
   display: inline-block;
   animation: 28s slide infinite linear;
