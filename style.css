@@ -122,6 +122,7 @@ nav ul li a:hover::after{
 }
 
 .tab-links {
+  color: white;
   margin-right: 50px;
   font-size: 18px;
   font-weight: 500;
